@@ -2,6 +2,8 @@
 
 A modern, high-performance web application designed to help you organize and track your job search with style. Built with **Vanilla JavaScript**, **Vite**, and **Tailwind CSS**, featuring a stunning **Glassmorphism** UI and a robust **Kanban Board**.
 
+🔗 Live demo: https://jobtrackr-peiris.netlify.app
+
 ![Hero Image](hero.png)
 
 
