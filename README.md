@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 JobTrackr - Premium Job Application Tracker
 
-## Getting Started
+A modern, high-performance web application designed to help you organize and track your job search with style. Built with **Vanilla JavaScript**, **Vite**, and **Tailwind CSS**, featuring a stunning **Glassmorphism** UI and a robust **Kanban Board**.
 
-First, run the development server:
+![JobTrackr Preview](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80) 
+*(Note: Replace with actual screenshot)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Key Features
+
+- **🎨 Premium UI/UX**: 
+  - **Glassmorphism Design**: Frosted glass panels, mesh gradients, and `Inter` typography.
+  - **Dark Mode**: High-contrast, premium dark theme with abstract backgrounds.
+  - **Animated Interactions**: Smooth transitions, hover effects, and interactive elements.
+
+- **📊 Dashboard & Analytics**:
+  - Live statistics for Applied, Interviewing, and Offers.
+  - "Recent Activity" feed using **Company Logo Avatars**.
+
+- **📋 Kanban Board**:
+  - Drag-and-drop workflow management.
+  - Move applications seamlessly between *Wishlist*, *Applied*, *Interview*, *Offer*, and *Rejected*.
+
+- **📝 Comprehensive Job Details**:
+  - "Cover Page" style layout.
+  - **Private Notes**: Timestamped notes for keeping track of interview feedback and thoughts.
+  - Status badges and salary tracking.
+
+- **🔒 Privacy First**:
+  - **Offline Storage**: Uses **Dexie.js (IndexedDB)** to store all data verify locally in your browser.
+  - No external database or login required (Simulation mode with Auth Service).
+
+## 🛠️ Technology Stack
+
+- **Framework**: [Vite](https://vitejs.dev/) (Vanilla JS)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Database**: [Dexie.js](https://dexie.org/) (IndexedDB wrapper)
+- **Icons**: Heroicons (via SVG)
+- **Fonts**: Inter (Google Fonts)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js installed (v14+)
+
+### Installation
+
+1. **Clone the repository** (or download source):
+   ```bash
+   git clone <repository-url>
+   cd job-trackr
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run Development Server**:
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:5173` (or the port shown in terminal) to view the app.
+
+4. **Build for Production**:
+   ```bash
+   npm run build
+   ```
+   The output will be in the `dist` folder.
+
+## 📂 Project Structure
+
+```
+├── src/
+│   ├── components/     # UI Components (Layout, JobForm, etc.)
+│   ├── pages/          # Page Views (Dashboard, Applications, JobDetails, Board)
+│   ├── services/       # Business Logic (Auth, JobService, Dexie DB)
+│   ├── router.js       # Client-side Routing Logic
+│   ├── main.js         # Entry Point
+│   └── style.css       # Global Styles & Tailwind Directives
+├── index.html          # Main HTML Template
+├── tailwind.config.js  # Tailwind Configuration
+└── package.json        # Dependencies & Scripts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🤝 Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Feel free to fork this project and submit pull requests. Suggestions for new features like "Email Integration" or "Calendar Sync" are welcome!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Built with ❤️ for job seekers everywhere.*
