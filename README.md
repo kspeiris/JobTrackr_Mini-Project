@@ -3,7 +3,7 @@
 A modern, high-performance web application designed to help you organize and track your job search with style. Built with **Vanilla JavaScript**, **Vite**, and **Tailwind CSS**, featuring a stunning **Glassmorphism** UI and a robust **Kanban Board**.
 
 ![JobTrackr Preview](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80) 
-*(Note: Replace with actual screenshot)*
+
 
 ## ✨ Key Features
 
