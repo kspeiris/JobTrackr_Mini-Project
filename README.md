@@ -31,6 +31,8 @@ A modern, high-performance web application designed to help you organize and tra
   - **Offline Storage**: Uses **Dexie.js (IndexedDB)** to store all data verify locally in your browser.
   - No external database or login required (Simulation mode with Auth Service).
 
+![Image](image.png)
+
 ## 🛠️ Technology Stack
 
 - **Framework**: [Vite](https://vitejs.dev/) (Vanilla JS)
