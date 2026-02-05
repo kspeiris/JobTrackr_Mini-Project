@@ -141,7 +141,7 @@ export async function Applications() {
         </div>
       </div>
 
-      <div class="bg-white/30 backdrop-blur-lg rounded-lg shadow overflow-hidden">
+      <div class="bg-white/30 backdrop-blur-lg rounded-lg shadow overflow-hidden overflow-x-auto">
         <table class="min-w-full divide-y divide-gray-200">
           <thead class="bg-white/50 backdrop-blur-lg">
             <tr>
